@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilory;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.nav-menu h3 {
+    font-size: 1rem;
+    border: 1.5px solid black;
+    padding: .3em .9em;
+    border-radius: 100vw;
+    font-weight: 500;
+}
+
+.nav-menu i {
+    font-size: 1.3rem;
+    border: 1.5px solid black;
+    padding: .3em .9em;
+    border-radius: 100vw;
+}
+
+.nav h1 {
+    font-weight: 600;
+    font-size: 1.375rem;
+    text-transform: uppercase;
+}
+
+.nav button{
+    font-size: 1rem;
+    border: 1.5px solid black;
+    padding: .3em .9em;
+    border-radius: 100vw;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+#btn2 {
+    background-color: black;
+    color: white;
+    border: none;
+    border: 1.5px solid black;
+}
+
+.hero-text {
+    text-transform: uppercase;
+    font-size: 8rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    font-weight: 500;
+}
+
+.main img {
+    height: 450px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#img1 {
+    z-index: 1;
+}
+#img2 {
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+#img3 {
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img4 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+.btm-left {
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+footer {
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+
+footer h3 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+footer i {
+    font-size: 2em;
+}
+
+footer .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
